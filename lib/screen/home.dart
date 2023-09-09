@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:slack_identify/screen/profile.dart';
+import 'package:slack_identify/screen/webview.dart';
 import 'package:slack_identify/tools/delayed.dart';
 
 class HomePage extends StatefulWidget {
@@ -61,11 +61,11 @@ class _HomePageState extends State<HomePage> {
                       style: Theme.of(context).textTheme.titleSmall,
                     ),
                     onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const ProfilePage()),
-                      );
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(
+                      //       builder: (context) => const ProfilePage()),
+                      // );
                     },
                   ),
                 ),
