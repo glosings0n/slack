@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:slack_identify/theme/theme.dart';
 import 'package:slack_identify/screen/welcome.dart';
+import 'package:slack_identify/theme/theme.dart';
 
 void main() {
   runApp(const MyApp());
