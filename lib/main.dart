@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Slack Identify',
+      title: 'Slack Profile',
       theme: ThemeApp.lightTheme,
       darkTheme: ThemeApp.darkTheme,
       themeMode: ThemeMode.system,
