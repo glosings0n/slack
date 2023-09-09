@@ -19,7 +19,8 @@ class _WebViewPageState extends State<WebViewPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        elevation: 0,        
+        elevation: 0,
+        iconTheme: Theme.of(context).iconTheme,    
         title: DelayedAnimation(
           delay: 500,
           child: Row(
