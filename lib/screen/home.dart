@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
       body: SingleChildScrollView(
         child: Container(
           margin: const EdgeInsets.symmetric(
-            vertical: 180,
+            vertical: 100,
             horizontal: 50,
           ),
           child: Column(
