@@ -308,10 +308,17 @@ packages:
     dependency: transitive
     description:
       name: webview_flutter_android
+<<<<<<< HEAD
       sha256: "0d8f5ac96a155e672129bf94c7abf625de01241d44d269dbaff083f1b4deb1aa"
       url: "https://pub.dev"
     source: hosted
     version: "3.9.5"
+=======
+      sha256: "9427774649fd3c8b7ff53523051395d13aed2ca355822b822e6493d79f5fc05a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.10.0"
+>>>>>>> webview
   webview_flutter_platform_interface:
     dependency: transitive
     description:

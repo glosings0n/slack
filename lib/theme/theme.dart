@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class ThemeApp{
+class ThemeApp {
   static ThemeData lightTheme = ThemeData(
-    brightness: Brightness.light, 
+    brightness: Brightness.light,
     datePickerTheme: const DatePickerThemeData(
       backgroundColor: Colors.blue,
     ),
     primarySwatch: Colors.blue,
+    iconTheme: const IconThemeData(
+      color: Colors.black,
+    ),
     textTheme: TextTheme(
       titleLarge: GoogleFonts.poiretOne(
         color: Colors.black,
@@ -33,6 +36,9 @@ class ThemeApp{
       backgroundColor: Colors.blue,
     ),
     primarySwatch: Colors.blue,
+    iconTheme: const IconThemeData(
+      color: Colors.white,
+    ),
     textTheme: TextTheme(
       titleLarge: GoogleFonts.poiretOne(
         color: Colors.white,
