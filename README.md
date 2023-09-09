@@ -8,5 +8,5 @@ If I can give some hypotheses, I will cite:
 1. Image downloading may be slow;
 2. Downloading the "GitHub" page may also take a while;
 ...
-A final note may be that the app works with the device theme.
+A final note may be that the app works with the device theme and have a small animation of the page components to give a smoother experience to users.
 Thanks you!
